@@ -1,0 +1,45 @@
+1.write a code to print numbers in the array?
+code
+
+  var array=[1234567891011]
+{
+    console.log(array)
+}
+
+2.write a code to print from last to first with spaces?
+code
+
+  function printreverseorder(N)
+    {
+  for(let i=N; i>0;i--)
+   document.write(i + " ");
+   }
+   let N = 11;
+   printreverseorder(N);
+
+
+3.write a code to add all numbers in the array?
+code
+
+  const array = [1,2,3,4,5,6,7,8,9,10,11]
+   let sum = 0;
+   for(let i=0;i<=array.length;i++){
+     sum += array[i];
+      }
+   console.log(sum);
+
+
+4.write a code to add even numbers only ?
+code 
+
+ let numstr = [1,2,3,4,5,6,7,8,9,10];
+ const sumEvens = (numstr) => {
+    let sum=0;
+  for(let i=0;i<numstr.length;i++) {
+    if(i%2===0){
+   sum = sum + numstr[i];
+       }
+      }
+    return sum;
+     }
+    console.log(sumEvens(numstr));
